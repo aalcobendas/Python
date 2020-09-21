@@ -69,7 +69,7 @@ def SendEmail():
     message = FormatEmail()
     smtp = SMTP ("smtp.gmail.com")
     smtp.starttls()
-    smtp.login("aalcobendas99@gmail.com", "AAS31399")
+    smtp.login("aalcobendas99@gmail.com", "******")
     smtp.sendmail("aalcobendas99@gmail.com", "aalcobendas99@gmail.com",message.as_string())
     smtp.quit()
 
